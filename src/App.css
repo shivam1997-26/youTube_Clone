@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.headerContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px lightgray;
+}
+
+.brandLogo {
+  margin-left: 25px;
+}
+
+.searchInput {
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 22px;
+  outline: none;
+}
+
+.searchInput:focus {
+  border: none;
+  outline: none;
+}
+
+.input {
+  border: 1px solid #000;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  padding: 5px;
+}
+
+.serchSection {
+  padding: 3px;
+  width: 50%;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.inputMic {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+  border: 1px solid;
+  border-radius: 50%;
+
+}
+
+.inputMic:hover {
+  background-color: lightgrey;
+}
+
+.signInButton {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #065fd4;
+  width: 100px;
+}
+
+.singinSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 10%;
+}
+
+.footerSection {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.sidebarContainer {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+
+}
+
+.menuTitle {
+  margin: 15px;
+}
+
+.sidebarContainer:hover {
+  border: 1px solid #000;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.videoCard {
+  border-radius: 20px;
+}
